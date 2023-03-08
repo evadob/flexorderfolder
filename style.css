@@ -17,29 +17,42 @@
 
 .read {
   background-image: url("img/read.jpg");
+  order: 2;
 }
 
 .cook {
   background-image: url("img/cook.jpg");
+  order: 1;
 }
 
 .code {
   background-image: url("img/code.jpg");
+  order: 3;
 }
 
 .family {
   background-image: url("img/family.jpg");
+  order: 5;
 }
 
 .netflix {
   background-image: url("img/netflix.jpg");
+  order: 4;
 }
 
 .sleep {
   background-image: url("img/sleep.jpg");
+  order: 6;
 }
 
 /* --------------- */
 /* zadání: 
 Prohlédni si html soubor. Nastyluj obrázky, aby se zobrazily vedle sebe, vycentrovaly v obalovém divu a zalamovaly, pokud se nevejdou na stránku. 
 Potom obrázky seřaď podle toho, jakou aktivitu budeš dělat dnes po lekci :)   */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
